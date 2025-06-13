@@ -1,0 +1,89 @@
+.cart {
+    /* border: 2px solid; */
+    width: 290px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    background-color: #D9D9D926;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.cart h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pricediv {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.textcart {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: absolute;
+    top: 160%;
+}
+
+.cartobuv {
+    /* border: 2px solid; */
+    width: 400px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 0px 7px #DEDEDE;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+
+.pricecart {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.pricecart h3 {
+    font-size: 24px;
+}
+
+.new {
+    position: relative;
+    bottom: 420px;
+    background-color: black;
+    width: 50px;
+    height: 20px;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+}
+
+.cartclient {
+    width: 700px;
+    height: 300px;
+    background-color: #F0F0F0;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.textclientcart {
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    width: 380px;
+    height: 250px;
+    justify-content: space-around;
+}
